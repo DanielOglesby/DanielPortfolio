@@ -8,6 +8,6 @@
 <style lang="postcss">
   :global(html) {
     background-color: theme(colors.blue.400);
-    font-family: "Archivo", sans-serif;
+    font-family: "Archivo";
   }
 </style>

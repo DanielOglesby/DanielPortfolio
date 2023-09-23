@@ -1,12 +1,20 @@
 <script>
-  import BottomNav2 from "../components/bottomNav2.svelte";
-  import Headshot from "../components/headshot.svelte";
+  import BottomNav2 from "../components/BottomNav2.svelte";
+  import Headshot from "../components/Headshot.svelte";
+  import Browser from "../components/Browser.svelte";
 </script>
 
 <main>
-  <section>
-    <div class="display-flex justify-center m-[5vw] max-w-xs">
-      <Headshot></Headshot>
+  <section class="flex justify-center items-center h-screen flex-col">
+    <div class="flex my-12">
+      <Browser></Browser>
+    </div>
+    <div class="flex w-1/2">
+      <p class="justify-center text-center">
+        Recent Software Engineering graduate from The University of Texas at
+        Dallas. With a passion for technology and problem-solving, I am excited
+        to connect and learn!
+      </p>
     </div>
     <div>
       <BottomNav2 />
