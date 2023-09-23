@@ -26,6 +26,8 @@
   },
   "type": "module",
   "dependencies": {
+    "@fontsource/archivo": "^5.0.8",
+    "@fontsource/inter": "^5.0.8",
     "@sveltejs/adapter-auto": "^2.1.0",
     "eslint-plugin-svelte": "^2.33.1",
     "iconify-icon": "^1.0.8"

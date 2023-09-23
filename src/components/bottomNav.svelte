@@ -1,7 +1,7 @@
 <script lang="ts">
   import githubLogo from "../lib/assets/github-logo.svg";
   import linkedinLogo from "../lib/assets/linkedin-logo.svg";
-  import resume from "../lib/assets/resume.svg";
+  import instagram from "../lib/assets/instagram.svg";
 
   let color = "white";
   let githubHover = false;
@@ -11,7 +11,7 @@
 <div class="btm-nav">
   <button class="hover:active ease-out duration-100">
     <a href="https://github.com/DanielOglesby">
-      <img src={githubLogo} alt="GitHub" class="h-7 w-7" />
+      <img src={githubLogo} alt="GitHub" class="h-7 w-7 invert" />
     </a>
   </button>
   <button class="hover:active ease-out duration-100">
@@ -20,8 +20,8 @@
     </a>
   </button>
   <button class="hover:active ease-out duration-100">
-    <a>
-      <img src={resume} alt="LinkedIn" class="h-7 w-7 invert" />
+    <a href="https://www.instagram.com/beltsquatguy/">
+      <img src={instagram} alt="Instagram" class="h-7 w-7 invert" />
     </a>
   </button>
 </div>
