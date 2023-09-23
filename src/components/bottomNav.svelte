@@ -1,41 +1,27 @@
 <script lang="ts">
-    import githubLogo from "../lib/assets/github-mark-white.svg";
+  import githubLogo from "../lib/assets/github-logo.svg";
+  import linkedinLogo from "../lib/assets/linkedin-logo.svg";
+  import resume from "../lib/assets/resume.svg";
+
+  let color = "white";
+  let githubHover = false;
+  let linkedinHover = false;
 </script>
 
 <div class="btm-nav">
-  <a href="https://github.com/DanielOglesby">
-    <button>
-        <img src={githubLogo} alt="GitHub" class="h-5 w-5">
-    </button>
-  </a>
-  <button class="active">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="h-5 w-5"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-      ><path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-      /></svg
-    >
+  <button class="hover:active ease-out duration-100">
+    <a href="https://github.com/DanielOglesby">
+      <img src={githubLogo} alt="GitHub" class="h-7 w-7" />
+    </a>
   </button>
-  <button>
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="h-5 w-5"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-      ><path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-      /></svg
-    >
+  <button class="hover:active ease-out duration-100">
+    <a href="https://www.linkedin.com/in/daniel-oglesby-b68086b3/">
+      <img src={linkedinLogo} alt="LinkedIn" class="h-7 w-7 invert" />
+    </a>
+  </button>
+  <button class="hover:active ease-out duration-100">
+    <a>
+      <img src={resume} alt="LinkedIn" class="h-7 w-7 invert" />
+    </a>
   </button>
 </div>
