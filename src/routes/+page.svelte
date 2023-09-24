@@ -1,25 +1,12 @@
 <script>
-  import Headshot from "../components/LandingPage/Headshot.svelte";
-  import GithubButton from "../components/LandingPage/GithubButton.svelte";
-  import LinkedInButton from "../components/LandingPage/LinkedInButton.svelte";
-  import InstagramButton from "../components/LandingPage/InstagramButton.svelte";
-  import TopNavbar from "../components/LandingPage/TopNavbar.svelte";
-  import ButtonGroup from "../components/LandingPage/ButtonGroup.svelte";
-  import ExperienceCard from "../components/ExperiencePage/ExperienceCard.svelte";
   import Header from "../components/LandingPage/Header.svelte";
+  import AnimatedText from "../components/LandingPage/AnimatedText.svelte";
 </script>
 
 <main class="px-[15vw] py-10">
   <Header></Header>
-  <div class="flex p-10 justify-center text-3xl mt-12">
-    <p class="text-center">
-      Hello! My name is <a
-        class="text-sky-400"
-        href="https://www.linkedin.com/in/daniel-oglesby-b68086b3/"
-        target="_blank">Daniel Oglesby</a
-      >. A software engineer from Dallas, TX. I'm passionate about building
-      beautiful, scalable applications.
-    </p>
+  <div class="flex justify-center">
+    <AnimatedText />
   </div>
 </main>
 
