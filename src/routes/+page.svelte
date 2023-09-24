@@ -1,12 +1,10 @@
 <script>
-  import BottomNav2 from "../components/BottomNav2.svelte";
-  import Headshot from "../components/Headshot.svelte";
-  import Browser from "../components/Browser.svelte";
-  import GithubButton from "../components/GithubButton.svelte";
-  import LinkedInButton from "../components/LinkedInButton.svelte";
-  import InstagramButton from "../components/InstagramButton.svelte";
-  import TopNavbar from "../components/TopNavbar.svelte";
-  import ButtonGroup from "../components/ButtonGroup.svelte";
+  import Headshot from "../components/LandingPage/Headshot.svelte";
+  import GithubButton from "../components/LandingPage/GithubButton.svelte";
+  import LinkedInButton from "../components/LandingPage/LinkedInButton.svelte";
+  import InstagramButton from "../components/LandingPage/InstagramButton.svelte";
+  import TopNavbar from "../components/LandingPage/TopNavbar.svelte";
+  import ButtonGroup from "../components/LandingPage/ButtonGroup.svelte";
 </script>
 
 <main>

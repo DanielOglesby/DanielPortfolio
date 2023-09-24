@@ -1,5 +1,5 @@
 <script>
-  import linkedInLogo from "../lib/assets/linkedin-logo.svg";
+  import linkedInLogo from "../../lib/assets/linkedin-logo.svg";
 </script>
 
 <button class="hover:active ease-out duration-100 w-10">

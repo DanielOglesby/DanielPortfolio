@@ -1,5 +1,5 @@
 <script>
-  import githubLogo from "../lib/assets/github-logo.svg";
+  import githubLogo from "../../lib/assets/github-logo.svg";
 </script>
 
 <button class="hover:active ease-out duration-100 w-10">

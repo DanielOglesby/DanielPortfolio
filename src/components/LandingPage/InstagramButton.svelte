@@ -1,5 +1,5 @@
 <script>
-  import instagram from "../lib/assets/instagram.svg";
+  import instagram from "../../lib/assets/instagram.svg";
 </script>
 
 <button class="hover:active ease-out duration-100">
