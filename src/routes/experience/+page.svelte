@@ -21,6 +21,7 @@
             "Terraform",
             "Heroku",
           ]}
+          link="https://www.invitationhomes.com/"
         />
         <ExperienceCard
           title="The University of Texas at Dallas"
@@ -32,6 +33,7 @@
             "Automata Theory",
             "Network Security",
           ]}
+          link="https://cs.utdallas.edu/"
         />
       </div>
     </div>
