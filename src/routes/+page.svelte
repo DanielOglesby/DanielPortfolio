@@ -6,22 +6,11 @@
   import TopNavbar from "../components/LandingPage/TopNavbar.svelte";
   import ButtonGroup from "../components/LandingPage/ButtonGroup.svelte";
   import ExperienceCard from "../components/ExperiencePage/ExperienceCard.svelte";
+  import Header from "../components/LandingPage/Header.svelte";
 </script>
 
 <main class="px-[15vw] py-10">
-  <section class=" flex">
-    <div class="h-24 flex w-full">
-      <div class="flex ml-4">
-        <Headshot />
-      </div>
-      <div class="flex ml-8 order-1">
-        <TopNavbar />
-      </div>
-      <div class="flex order-2 ml-auto">
-        <ButtonGroup />
-      </div>
-    </div>
-  </section>
+  <Header></Header>
   <div class="flex p-10 justify-center text-xl">
     <p class="text-center">
       Hello! My name is <a
