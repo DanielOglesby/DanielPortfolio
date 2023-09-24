@@ -11,7 +11,7 @@
 
 <main class="px-[15vw] py-10">
   <Header></Header>
-  <div class="flex p-10 justify-center text-xl">
+  <div class="flex p-10 justify-center text-3xl mt-12">
     <p class="text-center">
       Hello! My name is <a
         class="text-sky-400"
