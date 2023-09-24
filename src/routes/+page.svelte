@@ -5,10 +5,11 @@
   import InstagramButton from "../components/LandingPage/InstagramButton.svelte";
   import TopNavbar from "../components/LandingPage/TopNavbar.svelte";
   import ButtonGroup from "../components/LandingPage/ButtonGroup.svelte";
+  import ExperienceCard from "../components/ExperiencePage/ExperienceCard.svelte";
 </script>
 
-<main>
-  <section class="px-[15vw] py-10 flex">
+<main class="px-[15vw] py-10">
+  <section class=" flex">
     <div class="h-24 flex w-full">
       <div class="flex ml-4">
         <Headshot />
@@ -21,7 +22,7 @@
       </div>
     </div>
   </section>
-  <div class="flex p-10 justify-center">
+  <div class="flex p-10 justify-center text-xl">
     <p class="text-center">
       Hello! My name is <a
         class="text-sky-400"
