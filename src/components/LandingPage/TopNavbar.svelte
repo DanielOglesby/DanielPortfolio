@@ -14,9 +14,4 @@
       <a href="experience"> Experience </a>
     </button>
   </div>
-  <div>
-    <button class="hover:text-sky-400 ease-in-out duration-200">
-      <a href="skills"> Skills </a>
-    </button>
-  </div>
 </div>
